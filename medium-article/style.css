@@ -1,6 +1,8 @@
 a {
+  color: rgb(147, 147, 147);
   background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgb(191, 255, 213));
   font-family: "Imperial Script", cursive;
+  text-decoration: none;
 }
 
 a:hover {
