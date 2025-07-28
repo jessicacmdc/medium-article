@@ -1,0 +1,48 @@
+a {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgb(191, 255, 213));
+  font-family: "Imperial Script", cursive;
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, rgb(132, 250, 173), rgb(81, 249, 140));
+}
+
+h2 {
+  color: gray;
+}
+
+.banner {
+  background-image: url("https://picsum.photos/id/237/200/300");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
